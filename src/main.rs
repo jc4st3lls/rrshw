@@ -16,7 +16,8 @@ fn main(){
       let port :u16=args[2].parse().expect(&"PORT incorrect!!");
       let mut invisible='n';
       if len==4{
-         invisible='y';
+         let a3=args[3].chars().next().unwrap();         
+         if a3=='y' {invisible='y';}
       }
       rsh::shell(ipv4,port,invisible);
 
