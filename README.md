@@ -16,3 +16,5 @@ cargo build --release
 (a la carpeta bin hi ha una versió compilada)
 
 **Com provar**
+
+Dins la carpeta Netcat he deixat el nesessari per engegar un netcat dins un contanier docker per tal de simular un servidor remot. Seguin les pases del document Help.txt i posteriorment des d'una consola windows executem l'exemple **rrshw.exe 127.0.0.1 4444 y**, veurem com en el contenidor apareix una consola cmd de windows. Proveu també sens el paràmetre 'y' per entendre la seva utilitat.
