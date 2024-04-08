@@ -7,9 +7,11 @@ Exemple: **rrshw.exe 127.0.0.1 4444 y**
 
 **Complilar a partir del codi font**
 git clone https://github.com/jc4st3lls/rrshw.git
+
 cd rrshw
+
 cargo build --release 
 
 (a la carpeta bin hi ha una versió compilada)
 
-** Com provar **
+**Com provar**
