@@ -1,0 +1,17 @@
+Des de la mateixa carpeta
+
+- Construim la imatge
+
+docker build -t netcat:dev .
+
+- Engeguem 
+
+docker run -d -p 4444:4444 --name netcatrrshw netcat:dev
+
+- Entrem de forma interactiva
+
+docker exec -it netcatrrshw bin/sh
+
+- Un cop dins executem netcat en mode espera:
+
+nc -lvp 4444
